@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="text-muted font-computational text-sm text-center md:text-left opacity-70">
-          &copy; {new Date().getFullYear()} Designed & Built with precision. All rights reserved.
+          &copy; {new Date().getFullYear()} Designed & Built with passion. All rights reserved.
         </div>
 
         <div className="flex gap-6">
