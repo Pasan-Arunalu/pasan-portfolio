@@ -47,10 +47,9 @@ function App() {
     };
     
     mediaQuery.addEventListener('change', handleMotionChange);
-
-    mediaQuery.addEventListener('change', handleMotionChange);
     
     return () => {
+      clearTimeout(paintTimer);
       clearTimeout(timer);
       mediaQuery.removeEventListener('change', handleMotionChange);
     };
